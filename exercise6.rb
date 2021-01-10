@@ -5,13 +5,13 @@ if user_name == my_name
     puts "We have the same name!"
 end 
 
-# if user_name > 10
-#     puts "hi #{user_name}"
-# elsif user_name < 10 
-#     puts "hello #{user_name}"
-# else user_name == 10 
-#     puts "hey #{user_name}"
-# end 
+if user_name.length > 10
+    puts "hi #{user_name}"
+elsif user_name.length < 10 
+    puts "hello #{user_name}"
+else user_name.length == 10 
+    puts "hey #{user_name}"
+end 
 
 secret_number = 6
 puts "try to guess the secret number"
